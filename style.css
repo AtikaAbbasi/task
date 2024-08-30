@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.sec1{
+    display: flex;
+}
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 50;
+    background-color: black;
+font-size: 1.3em;
+    font-weight: bold;
+    
+}
+
+.part01{
+    margin-top: 4em;
+    
+}
+.green{
+    background-color: rgb(108, 233, 113);
+    height: 30px;
+    width: 200px;
+    font-weight: bold;
+    margin-left: 2em;
+    text-align: center;
+}
+
+.head{
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.bttn{
+    width: 200px;
+    background-color: black;
+    margin-left: 2em;
+}
+
+.imgg{
+   margin-left: 9em;
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    gap: 2em;
+    flex-wrap: wrap;
+  
+}
+
+.heade{
+    margin-top: 2em;
+    margin-left: 2em;
+    display: flex;
+    gap: 2em;
+}
+
+.sec2{
+    display: flex;
+    /* gap: em; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.child2{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(223, 230, 224);
+    margin-top: 2em;
+    border-radius: 18px;
+}
+
+
+.child{
+    min-height: 300px;
+    max-width: 500px;
+    background-color: rgb(108, 233, 113);
+    margin-top: 2em;
+    border-radius: 18px;
+}
+
+.labl{
+    margin-top: 2em;
+    margin-left: 4em;
+}
+
+
+.labl1{
+    /* margin-top: 2em; */
+    margin-left: 4em;
+    background-color: white;
+}
+
+
+.paraa{
+    margin-top: 2em;
+    margin-left: 1em;
+   
+}
+
+.fa{
+    margin-top: 4em;
+    margin-left: 2em;
+    width: 40px;
+    height: 40px;
+
+}
+
+.div{
+    display: flex;
+}
+
+.faa{
+  margin-left: 3em;
+
+}
+
+.sec3{
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2em;
+    gap: 2em;
+}
+
+.paraee{
+    margin-left: 2em;
+}
+
+@media (max-width:780px){
+    .imgg{
+        width: 100px;
+        height: 120px;
+        margin-left: -1em;
+      
+    
+    }
+}
+
+
+@media (max-width:490px){
+    .child{
+        width: 300px;
+        height: 400px;
+        margin-left: -1em;
+      
+    
+    }
+
+    .child2{
+        width: 300px;
+        height: 400px;
+        margin-left: -1em;
+      
+    
+    }
+
+
+    .add{
+        width: 155px;
+    }
+}
